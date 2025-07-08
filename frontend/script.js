@@ -1,7 +1,7 @@
 const form = document.getElementById('roomForm');
 const roomTableBody = document.querySelector('#roomTable tbody');
 
-const api = 'http://localhost:3000/api/rooms';
+const api = 'https://hotel-roommanagement.onrender.com/api/rooms';
 
 function getAllRooms() {
     fetch(api)
