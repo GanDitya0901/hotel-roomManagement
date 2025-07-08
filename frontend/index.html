@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Room Management</h1>
+
+        <form id="roomForm">
+            <input type="text" id="roomID" placeholder="Room ID" required>
+            <input type="text" id="roomName" placeholder="Name of the Room" required>
+            <input type="text" id="roomType" placeholder="Type of Room" required>
+            <input type="number" id="price" placeholder="Enter the Price" required>
+            <button type="submit">Add Room</button>
+        </form>
+
+        <div class="table-wrapper">
+            <table id="roomTable">
+                <thead>
+                    <tr>
+                        <th>Room ID</th>
+                        <th>Room Name</th>
+                        <th>Room Type</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
